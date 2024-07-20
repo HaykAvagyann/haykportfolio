@@ -1,7 +1,7 @@
 import React from 'react';
 import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
-
+import { links } from '../constants';
 const Contact = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -31,7 +31,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
-          href='#'
+          href={links[4]}
           className='border-b'>
           {CONTACT.email}
         </motion.a>
