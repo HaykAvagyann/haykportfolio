@@ -8,7 +8,7 @@ const Projects = () => {
       <motion.h2
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 1 }}
         className='my-20 text-center text-4xl'>
         Projects
       </motion.h2>
@@ -20,7 +20,7 @@ const Projects = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1.5 }}
+              transition={{ duration: 1 }}
               className='w-full lg:w-1/4'>
               <img
                 src={project.image}
@@ -33,7 +33,7 @@ const Projects = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1.5 }}
+              transition={{ duration: 1 }}
               className='w-full max-w-xl lg:w-3/4'>
               <h6 className='mb-2 font-semibold'>{project.title}</h6>
               <p className='mb-4 text-neutral-400'>{project.description}</p>

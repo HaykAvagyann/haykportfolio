@@ -3,6 +3,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaInstagram } from 'react-icons/fa';
+import { links } from '../constants';
 
 const Navbar = () => {
   return (
@@ -15,10 +16,18 @@ const Navbar = () => {
         />
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <a href={links[0]}>
+          <FaLinkedin className='hover:text-cyan-600 transition cursor-pointer' />
+        </a>
+        <a href={links[1]}>
+          <FaGithub className='hover:text-cyan-600 transition cursor-pointer' />
+        </a>
+        <a href={links[2]}>
+          <FaSquareXTwitter className='hover:text-cyan-600 transition cursor-pointer' />
+        </a>
+        <a href={links[3]}>
+          <FaInstagram className='hover:text-cyan-600 transition cursor-pointer' />
+        </a>
       </div>
     </nav>
   );
