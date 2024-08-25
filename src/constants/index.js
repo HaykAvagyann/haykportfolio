@@ -14,7 +14,7 @@ Redux: Managing state effectively in complex applications.
 Bootstrap: Utilizing the popular framework for responsive design and rapid development.
 I am passionate about staying updated with the latest trends and best practices in frontend development to deliver high-quality web solutions.`;
 
-export const links = ['https://www.linkedin.com/in/hayk-avagyan-5b5a5429a/', 'https://github.com/HaykAvagyann/haykportfolio', 'https://x.com/hayk_avagyan07', 'https://www.instagram.com/_.hayk.avagyan._/', 'https://mail.google.com/mail/u/0/#chat/home']
+export const links = ['https://www.linkedin.com/in/hayk-avagyan-5b5a5429a/', 'https://github.com/HaykAvagyann/haykportfolio', 'https://x.com/hayk_avagyan07', 'https://www.instagram.com/_.hayk.avagyan._/', 'https://mail.google.com/mail/u/0/#inbox']
 
 export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including HTML5, CSS3, SCSS, JavaScript, React JS, Redux, and Bootstrap. My journey in frontend development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
