@@ -34,13 +34,6 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "JS", "React/Redux"],
   },
   {
-    year: "2023",
-    role: "Frontend Developer",
-    company: "SmartCode",
-    description: `In 2023, I worked at SmartCode, where I developed a website dedicated to yoga. This project allowed me to apply my expertise in HTML5, CSS3, and SCSS to create a visually serene and user-friendly online presence for the yoga community`,
-    technologies: ["HTML5", "CSS3", "SCSS"],
-  },
-  {
     year: "2022",
     role: "Frontend Developer",
     company: "TUMO Center for Creative Technologies",
@@ -56,28 +49,23 @@ export const PROJECTS = [
     description:
       "Implementing robust login and registration logic to ensure secure user authentication. Designing and developing functionality to facilitate display and interactions with other users. Enabling users to initiate and engage in real-time conversations with others on the platform. Ensuring a smooth and responsive user experience across devices.",
     technologies: ["HTML", "CSS", "React", "Next", "MongoDB"],
+
+    link: "https://github.com/HaykAvagyann/messengerclone"
   },
-  {
-    title: "Web Travel Agency",
-    image: project2,
-    description:
-      "A Website for travelling",
-    technologies: ["HTML", "CSS", "JS", "React/Redux"],
-  },
-  {
-    title: "Yoga Website",
-    image: project3,
-    description:
-      "A Website about Yoga",
-    technologies: ["HTML", "CSS", "SCSS"],
-  },
-  {
-    title: "solana",
-    image: project4,
-    description:
-      "Solana supports experiences for power users, new consumers, and everyone in between.",
-    technologies: ["HTML", "CSS", "SCSS"],
-  },
+  // {
+  //   title: "Web Travel Agency",
+  //   image: project2,
+  //   description:
+  //     "A Website for travelling",
+  //   technologies: ["HTML", "CSS", "JS", "React/Redux"],
+  // },
+  // {
+  //   title: "solana",
+  //   image: project4,
+  //   description:
+  //     "Solana supports experiences for power users, new consumers, and everyone in between.",
+  //   technologies: ["HTML", "CSS", "SCSS"],
+  // },
 ];
 
 export const CONTACT = {
